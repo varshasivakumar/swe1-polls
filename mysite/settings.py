@@ -109,4 +109,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = "/static/"
-django_heroku.settings(locals())
+if "HOME" in os.environ and "/app" in os.environ["HOME"]:
+    django_heroku.settings(locals())
