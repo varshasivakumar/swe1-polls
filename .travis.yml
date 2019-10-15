@@ -12,7 +12,7 @@ before_script:
 
 script:
   - black --check .
-  - flake8 .
+  - flake8 --max-line-length = 88 .
   - coverage run --source=swe1,polls manage.py test
 
 after_script:
