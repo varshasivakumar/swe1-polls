@@ -1,0 +1,1 @@
+[![Coverage Status](https://coveralls.io/repos/github/varshasivakumar/swe1-polls/badge.svg?branch=master)](https://coveralls.io/github/varshasivakumar/swe1-polls?branch=master)
